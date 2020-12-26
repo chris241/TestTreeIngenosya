@@ -1,0 +1,6 @@
+cadre2 18
+cadre4 12
+cadre5 18
+cadre6 6
+cadre7 31
+cadre9 12
