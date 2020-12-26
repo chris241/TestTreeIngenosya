@@ -1,23 +1,46 @@
-<div class="container">
-        <form class="form" name="utilisateur" #f="ngForm">
-                <div class="form-group">
-                        <mat-form-field class="example-full-width">
+<div class="container pt-5">
 
-                                <mat-label>Catégorie</mat-label>
-                                <input matInput placeholder="Ex: développeur" name="categorie" #categorie="ngModel"
-                                        [(ngModel)]="test.categorie" />
-                        </mat-form-field>
-                        <button mat-raised-button color="primary" (click)="addTree()">Valider</button>
-                </div>
+        <mat-card>
+                <mat-card-title>
+                        <form class="form" name="utilisateur" #f="ngForm">
+                                <label class="label">Ajouter une nouvelle catégorie:</label>
+                                <div class="form-group">
+                                        <mat-form-field class="example-full-width">
 
-        </form>
-        <div class="row" *ngIf="syntheses==null">
-                        Aucune catégorie enregistrée!!!
-        </div>
-        <div class="row" *ngFor="let synt of syntheses">
-                {{synt.categorie}}
-                {{synt.nombre}}
-                {{synt.pourcentage}} %
-        </div>
+                                                <mat-label>Catégorie</mat-label>
+                                                <input matInput placeholder="Ex: développeur" name="categorie"
+                                                        #categorie="ngModel" [(ngModel)]="test.categorie" />
+                                        </mat-form-field>
+                                        <button mat-raised-button color="primary" (click)="addTree()">Valider</button>
+                                </div>
+
+                        </form>
+
+                </mat-card-title>
+
+                <mat-card-content>
+                        <div class="row" *ngIf="syntheses==null">
+                                Aucune catégorie enregistrée!!!
+                        </div>
+                        <div class="container">
+                                <button mat-raised-button color="warn" (click)="getExport()">export</button>
+                                <div class="row" *ngFor="let synt of syntheses">
+                                        <mat-expansion-panel>
+                                                <mat-expansion-panel-header>
+                                                        <mat-panel-title>
+                                                                {{synt.categorie}}
+                                                        </mat-panel-title>
+                                                        <mat-panel-description>
+                                                                        <span> Nombre: {{synt.nombre}}</span>
+                                                        </mat-panel-description>
+                                                </mat-expansion-panel-header>
+                                                <p>Pourcentage: {{synt.pourcentage}} % </p>
+                                        </mat-expansion-panel>
+                                </div>
+
+                        </div>
+
+                </mat-card-content>
+
+        </mat-card>
 </div>
-        

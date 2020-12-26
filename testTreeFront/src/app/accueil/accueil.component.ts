@@ -11,7 +11,8 @@ import { TestReq } from '../models/test-req';
 export class AccueilComponent implements OnInit {
   syntheses: Synthese[];
   test: TestReq = new TestReq();
-  constructor(public service: TreeService) { }
+  constructor(public service: TreeService) {
+  }
 
   ngOnInit() {
     this.getAllSynthese();
@@ -19,18 +20,21 @@ export class AccueilComponent implements OnInit {
   getAllSynthese() {
     this.service.getAll().subscribe((data) => {
       this.syntheses = data;
-      console.log(this.syntheses);
     });
 
   }
   addTree() {
     this.service.create(this.test).subscribe((data) => {
-      console.log(data);
       this.getAllSynthese();
       this.test.categorie = "";
     }, (err) => {
       alert("erreur");
     });
 
+  }
+  getExport() {
+    this.service.getExport().subscribe((data) => {
+      alert(data);
+    })
   }
 }

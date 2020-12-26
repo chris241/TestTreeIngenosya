@@ -33,12 +33,12 @@ namespace testTreeAPI.Controllers
             {
                 ConnexionBase.GetInstance().TestConnection();
                 List<Synthese> tes = ConnexionBase.GetInstance().GetSynthese();
-                string path = HttpContext.Current.Server.MapPath("~/App_Data/my.txt");
+                string path = HttpContext.Current.Server.MapPath("~/App_Data/synthese.txt");
                 using (StreamWriter sw = File.CreateText(path))
                 {
                     foreach (Synthese s in tes)
                     {
-                        sw.WriteLine(s.Categorie + " " + s.Pourcentage);
+                        sw.WriteLine(s.Categorie + " " + s.Nombre+": "+s.Pourcentage);
                     }
 
                 }

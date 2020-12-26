@@ -1,21 +1,26 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+
+#include <vector>
 using namespace std;
 
 int main()
 {
-    ifstream monFlux("C:/Users/Chris/Desktop/TestTreeIngenosya/testTreeAPI/testTreeAPI/App_Data/my.txt");
+ ifstream fichier("C:/Users/Chris/Desktop/Projet_and_doc/TestTreeIngenosya/testTreeAPI/testTreeAPI/App_Data/synthese.txt");// chemin pour lire le fichier
 
-    if(monFlux)
+    if(fichier)
     {
         string ligne;
 
-        while(getline(monFlux, ligne))
+        while(getline(fichier, ligne))
         {
-          cout << ligne <<endl;
-        }
+            if(stoi(ligne.substr(ligne.find(":")+2))>30)
+            {
+                 cout << ligne <<endl;
+            }
 
+        }
     }
     else{
         cout << "Erreur: Impossible d'ouvrir le fichier"<< endl;

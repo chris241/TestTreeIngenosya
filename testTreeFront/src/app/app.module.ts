@@ -15,6 +15,9 @@ import { MatTreeModule } from '@angular/material/tree';
 import { TreeService } from './services/tree-service';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { MatDialogModule } from '@angular/material/dialog'
+import { MatIconModule } from '@angular/material/icon'
+import { MatExpansionModule } from '@angular/material/expansion'
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,7 +35,10 @@ import { FormsModule } from '@angular/forms';
     MatFormFieldModule,
     MatInputModule,
     MatCardModule,
-    MatTreeModule
+    MatTreeModule,
+    MatDialogModule,
+    MatIconModule,
+    MatExpansionModule
   ],
   providers: [TreeService],
   bootstrap: [AppComponent]

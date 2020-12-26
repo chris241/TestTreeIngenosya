@@ -21,4 +21,7 @@ export class TreeService {
     getAll(): Observable<any> {
         return this.http.get(`${environment.api_host}` + "api/tree")
     }
+    getExport(): Observable<any> {
+        return this.http.get(`${environment.api_host}` + "api/tree/export")
+    }
 }
