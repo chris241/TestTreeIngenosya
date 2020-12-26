@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testTreeConsole", "testTreeConsole\testTreeConsole.csproj", "{198665B3-CF9B-4984-9584-3580F080662D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testTreeConsole.Dao", "testTreeConsole.Dao\testTreeConsole.Dao.csproj", "{B25FA0A8-FE32-4103-BBCE-E0FAE101F3D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{198665B3-CF9B-4984-9584-3580F080662D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{198665B3-CF9B-4984-9584-3580F080662D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{198665B3-CF9B-4984-9584-3580F080662D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{198665B3-CF9B-4984-9584-3580F080662D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B25FA0A8-FE32-4103-BBCE-E0FAE101F3D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B25FA0A8-FE32-4103-BBCE-E0FAE101F3D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B25FA0A8-FE32-4103-BBCE-E0FAE101F3D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B25FA0A8-FE32-4103-BBCE-E0FAE101F3D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78F045CE-DFF1-4F57-9A26-3BB7145885B8}
+	EndGlobalSection
+EndGlobal
