@@ -1,0 +1,23 @@
+<div class="container">
+        <form class="form" name="utilisateur" #f="ngForm">
+                <div class="form-group">
+                        <mat-form-field class="example-full-width">
+
+                                <mat-label>Catégorie</mat-label>
+                                <input matInput placeholder="Ex: développeur" name="categorie" #categorie="ngModel"
+                                        [(ngModel)]="test.categorie" />
+                        </mat-form-field>
+                        <button mat-raised-button color="primary" (click)="addTree()">Valider</button>
+                </div>
+
+        </form>
+        <div class="row" *ngIf="syntheses==null">
+                        Aucune catégorie enregistrée!!!
+        </div>
+        <div class="row" *ngFor="let synt of syntheses">
+                {{synt.categorie}}
+                {{synt.nombre}}
+                {{synt.pourcentage}} %
+        </div>
+</div>
+        
