@@ -1,0 +1,13 @@
+C:\Users\Chris\Desktop\TestTree\testTree.Model\bin\Debug\testTree.Model.dll
+C:\Users\Chris\Desktop\TestTree\testTree.Model\bin\Debug\testTree.Model.pdb
+C:\Users\Chris\Desktop\TestTree\testTree.Model\obj\Debug\testTree.Model.csprojAssemblyReference.cache
+C:\Users\Chris\Desktop\TestTree\testTree.Model\obj\Debug\testTree.Model.dll
+C:\Users\Chris\Desktop\TestTree\testTree.Model\obj\Debug\testTree.Model.pdb
+C:\Users\Chris\Desktop\TestTreeIngenosya\testTreeFrom\testTree.Model\bin\Debug\testTree.Model.dll
+C:\Users\Chris\Desktop\TestTreeIngenosya\testTreeFrom\testTree.Model\bin\Debug\testTree.Model.pdb
+C:\Users\Chris\Desktop\TestTreeIngenosya\testTreeFrom\testTree.Model\obj\Debug\testTree.Model.csprojAssemblyReference.cache
+C:\Users\Chris\Desktop\TestTreeIngenosya\testTreeFrom\testTree.Model\obj\Debug\testTree.Model.dll
+C:\Users\Chris\Desktop\TestTreeIngenosya\testTreeFrom\testTree.Model\obj\Debug\testTree.Model.pdb
+C:\Users\Chris\Desktop\TestTreeIngenosya\testTreeFrom\testTree.Model\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Chris\Desktop\TestTreeIngenosya\testTreeFrom\testTree.Model\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Chris\Desktop\TestTreeIngenosya\testTreeFrom\testTree.Model\obj\Debug\testTree.Model.csproj.CopyComplete
