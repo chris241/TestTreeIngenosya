@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1608915595 source:c:\users\chris\pictures\testtreec\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+
+1608916486 source:c:\users\chris\desktop\testtreeingenosya\testtreec\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+
