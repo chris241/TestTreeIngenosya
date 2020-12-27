@@ -1,3 +1,3 @@
-administrateur 5: 50
-agriculteur 3: 30
-designer 2: 32
+administrateur 6 40%
+agriculteur 4 26%
+designer 5 33%

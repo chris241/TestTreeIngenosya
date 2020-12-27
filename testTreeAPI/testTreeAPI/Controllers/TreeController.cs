@@ -38,7 +38,7 @@ namespace testTreeAPI.Controllers
                 {
                     foreach (Synthese s in tes)
                     {
-                        sw.WriteLine(s.Categorie + " " + s.Nombre+": "+s.Pourcentage);
+                        sw.WriteLine(s.Categorie + " " + s.Nombre+" "+s.Pourcentage+"%");
                     }
 
                 }
