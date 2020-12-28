@@ -25,6 +25,10 @@ namespace testTreeConsole.Dao
             {
                 string connectionString = "SERVER=localhost ; DATABASE=test_bd; UID=root; PASSWORD=";
                 this.connexion = new MySqlConnection(connectionString);
+                if(this.connexion == null)
+                {
+                    Console.WriteLine("impossible de se connecter");
+                }
                 Console.WriteLine("la connexion à la base de donnée a réussi !! " );
                 Console.WriteLine("détails de la connexion: " + connectionString);
             }
