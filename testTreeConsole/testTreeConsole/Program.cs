@@ -12,7 +12,6 @@ namespace testTreeConsole
         static void Main(string[] args)
         {
             ConnexionBase.GetInstance().TestConnection();
-            ConnexionBase.GetInstance().GetSynthese();
             Console.ReadKey();
         }
     }
